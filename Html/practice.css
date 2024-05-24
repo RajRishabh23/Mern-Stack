@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.new {
+    display: flex;
+    
+}
+  
+.columns {
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+  
+#mobile {
+    background-color: lightcoral;
+}
+  
+#laptops {
+    background-color: lightskyblue;
+}
+  
+#headphones {
+    background-color: lightgreen;
+}
+
+@media (max-width:992px) 
+{
+    .new{
+        flex-basis: 33%;
+        flex-direction: column   
+        
+    }
+    
+}
+
+@media (max-width:768px) 
+{
+    .new{
+        flex-basis: 50%;
+        flex-direction: column
+    }
+    
+}
+
+@media (max-width:576px) 
+{
+    .new{
+        flex-basis: 100%;
+        flex-direction: column
+    }
+    
+}
+
+h1{
+   -webkit-background-clip:text
+
+
+}
