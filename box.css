@@ -1,0 +1,14 @@
+#box{
+    background-color: rgb(147, 143, 211);
+    margin: 0 auto;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    
+}
+
+.content{
+    text-align: center;
+    
+}
