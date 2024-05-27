@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td>
+            <h1>Hotel Booking</h1>
+          </td>
+          <td>
+            <nav>
+              <a href="blog.html" target="_blank">Home</a> |
+              <a href="about.html" target="_blank">About</a> |
+              <a href="contactUs.html" target="_blank">Contact</a>
+            </nav>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+    <section>
+      <table width="100%">
+        <tr>
+          <td>
+            <article class="signUp">
+              <div class="one">
+                <h2>Sign Up</h2>
+              </div>
+              <form>
+                <table>
+                  <tr>
+                    <td>
+                      <table cellpadding="10">
+                        <tr>
+                          <td>Email Id</td>
+                          <td><input type="email" name="email" required /></td>
+                        </tr>
+                        <tr>
+                          <td>Password</td>
+                          <td><input type="password" name="password" /></td>
+                        </tr>
+                        <tr>
+                          <td>Gender</td>
+                          <td>
+                            <select name="gender">
+                              <option value="male">Male</option>
+                              <option value="female">Female</option>
+                            </select>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Upload photo</td>
+                          <td><input type="file" name="file" /></td>
+                        </tr>
+                        <tr>
+                          <td>Date Of Birth</td>
+                          <td><input type="date" name="date" /></td>
+                        </tr>
+                        <tr>
+                          <td>Do you agree</td>
+                          <td>
+                            <input type="radio" name="term" value="yes" />Yes
+                            <input type="radio" name="term" value="no" />No
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><input type="submit" value="Sign Up" /></td>
+                          <td><input type="reset" value="Reset" /></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </article>
+          </td>
+          <td>
+            <article class="login">
+              <div class="one">
+                <h2>Login</h2>
+              </div>
+              <form action="#" method="get">
+                <label for="username">Username:</label>
+                <input type="text" name="username" /><br /><br />
+                <label for="password">Password:</label>
+                <input type="password" name="password" /><br /><br />
+                <input type="submit" value="Login" />
+              </form>
+            </article>
+          </td>
+          <td>
+            <article class="booking">
+              <div class="one">
+                <h2>Booking Options</h2>
+              </div>
+              <table border="1" cellpadding="10">
+                <thead>
+                  <tr>
+                    <th>Option</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Flight Booking</td>
+                    <td>Book your flights with ease and get the best deals.</td>
+                  </tr>
+                  <tr>
+                    <td>Bus Booking</td>
+                    <td>Find and book bus tickets at the best prices.</td>
+                  </tr>
+                  <tr>
+                    <td>Hotel Booking</td>
+                    <td>Book hotels worldwide at competitive rates.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Hotel Booking App.</p>
+    </footer>
+  </body>
+</html>
