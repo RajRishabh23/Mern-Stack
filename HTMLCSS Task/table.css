@@ -1,0 +1,26 @@
+table,th,td{
+    border: 1px solid; 
+    border-collapse:collapse ;
+   ;
+}
+th,td{
+    height: 30px;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: gray;
+}
+
+td{
+    background-color: aquamarine;
+}
+
+
+th{
+    background-color: blueviolet;
+}
+
+caption{
+    background-color: chocolate;
+}

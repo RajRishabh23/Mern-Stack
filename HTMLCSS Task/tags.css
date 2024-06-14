@@ -1,0 +1,63 @@
+p{
+    color: red;
+    text-align: center;
+}
+p.name{
+    color: rgba(13, 255, 5, 0.8);
+    border-style: dotted solid;
+    border-width: 5px;
+    border-color: brown;
+    border-radius: 20px;
+}
+
+*{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color:rgb(239, 255, 95) ;
+    text-decoration-style:wavy ;
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: auto;
+    text-shadow: 2px 2px 5px rgb(255, 50, 50);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+h1{
+    border: 2px thick rgba(34, 187, 4, 0.719);
+}
+body{
+    background-color: rgb(222, 191, 252);
+    opacity: 0.7;
+    background-image:  url("2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+    margin: 100px 100px 150px 150px;
+    padding: 50px 80px;
+    width: auto;
+    outline: 150px dotted salmon;
+    outline-offset: 75px;
+}
+
+a:link{
+    color: red;
+    background-color: yellow;
+    width: 150px;
+    padding: 10px;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color:lightcoral;
+}
+
+a:active{
+    color: blue;
+}

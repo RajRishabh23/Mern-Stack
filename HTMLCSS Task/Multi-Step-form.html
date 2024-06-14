@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Step form</title>
+  </head>
+  <style>
+    * {
+      margin: auto;
+      color: rgb(255, 0, 0);
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+      background-image: linear-gradient(rgb(193, 193, 248),rgb(64, 64, 255));
+    }
+    .steps {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin: 150px ;
+    }
+
+    .step1 {
+      background-color: lightblue;
+      margin: 10px;
+      border-radius: 20px;
+    }
+    .step2 {
+      background-color: rgb(242, 243, 170);
+      margin: 10px;
+      border-radius: 20px;
+    }
+
+    .step3 {
+      background-color: lightblue;
+      margin: 10px;
+      border-radius: 20px;
+    }
+    .steps input[type]:hover {
+      background-color: lightgrey;
+    }
+
+    input[type]:focus {
+      background-color: lightgray;
+    }
+    input {
+      padding: 10px;
+      margin: 5px;
+      color: black;
+      border-radius: 10px;
+    }
+    legend {
+      color: rgb(43, 10, 43);
+      font-weight: bold;
+      padding: 10px;
+      font-size: 30px;
+    }
+
+    .steps fieldset {
+      border: none;
+      padding: 20px;
+    } 
+ 
+    @media only screen and (max-width: 768px) {
+    .steps {
+      flex-wrap: wrap;
+    }
+  }
+  </style>
+  <body>
+    <form action="">
+      <div class="steps">
+        <div class="step1">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name</label>
+            <br />
+            <input type="text" name="name" id="name" required />
+            <br />
+            <label for="email">Email Id</label>
+            <br />
+            <input type="email" name="email" id="email" required />
+            <br />
+            <label for="phone">Phone</label>
+            <br />
+            <input type="tel" name="phone" id="phone" pattern="[0-9] {10}" />
+          </fieldset>
+        </div>
+
+        <div class="step2">
+          <fieldset>
+            <legend>Address Information</legend>
+            <label for="AddressLine1">Address Line 1</label>
+            <br />
+            <input type="text" name="AddressLine1" id="AddressLine1" required />
+            <br />
+            <label for="AddressLine2">Address Line 2</label>
+            <br />
+            <input type="text" name="AddressLine2" id="AddressLine2" />
+            <br />
+            <label for="city">City</label>
+            <br />
+            <input type="text" name="city" id="city" required />
+            <br />
+            <label for="state">State</label>
+            <br />
+            <input type="text" name="state" id="state" required />
+            <br />
+            <label for="zipCode">Zip Code</label>
+            <br />
+            <input type="text" name="zipCode" id="zipCode" required />
+          </fieldset>
+        </div>
+
+        <div class="step3">
+          <fieldset>
+            <legend>Account Information</legend>
+            <label for="userName">Username</label>
+            <br />
+            <input type="text" name="userName" id="userName" required />
+            <br />
+            <label for="password">Password</label>
+            <br />
+            <input type="password" name="password" id="password" required />
+            <br />
+            <label for="confirmPassword">Confirm Password</label>
+            <br />
+            <input
+              type="passowrd"
+              name="confirmPassword"
+              id="confirmPassword"
+              required
+            />
+          </fieldset>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
