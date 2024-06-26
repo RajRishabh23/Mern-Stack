@@ -1,0 +1,124 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+* {
+  box-sizing: border-box;
+}
+
+header h1{
+  text-align: center;
+  color: #7925d3;
+
+}
+html {
+  font-family: cursive;
+  font-weight: 400;
+  font-style:normal;
+
+  line-height: 2;
+  background: radial-gradient(#f5f5f5, #b978ff);
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility; */
+/* 
+  -webkit-font-smoothing: antialiased;
+  -webkit-osx-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem; */
+}
+
+main {
+  /* width: 90%; */
+  max-width: 65rem;
+  margin: auto;
+}
+
+#products-info{
+  /* padding: 1px; */
+  border-radius: 10px;
+  background-color: #4b1c7e;
+  box-shadow: 0 2px 30px rgba(2, 0, 0, 0.4);
+}
+
+main h2 {
+  text-align: center;
+  margin: 10;
+  color: #7925d3;
+}
+
+#products-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  color: #ebe7ef;
+}
+
+#products-info li {
+  width: 15rem;
+}
+
+#products-info li img{
+  height: auto;
+  width: auto;
+  object-fit: cover;
+}
+
+
+#products-info li h3 {
+  margin: 0.5rem 0;
+}
+
+#products-info li p{
+  font-size: 0.9rem;
+}
+
+#examples  {
+  margin: auto;
+}
+
+#examples menu ,#users-data ul{
+  margin:auto;
+  padding: 10px;
+  display: flex;
+  gap: 120px;
+  list-style: none;
+  /* text-align: center; */
+  justify-content: center;
+}
+
+#examples menu button,#users-data button{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #a18aba;
+  cursor: pointer;
+  /* transition: all 0.2s ease-in-out; */
+}
+
+#examples menu button:hover,#users-data button:hover {
+  background-color: #1b028f;
+  color: #ebe7ef;
+}
+
+
+#examples menu button.active,#users-data button:active {
+  background-color: #7925d3;
+  color: #ebe7ef;
+}
+
+#tab-content, #user-content {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0f061a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+#tab-content h3, #user-content h3 {
+  margin: 10;
+}
+
